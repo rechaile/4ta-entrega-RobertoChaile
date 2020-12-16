@@ -306,7 +306,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   text-align: left;
-  padding: 16px;
+  margin: auto;
 }
 
 p {
@@ -647,16 +647,21 @@ p {
 }
 
 /**Estilos Header**/
-.main__catalog4 img {
+.main__catalog4 div {
+  display: flex;
+  justify-content: center;
+}
+.main__catalog4 div div {
+  margin: auto;
+}
+.main__catalog4 div div img {
   width: 45%;
-  padding: 16px;
-  margin: 8px;
+  margin: 12px;
   transition: transform 0.3s ease-out;
 }
-.main__catalog4 img:hover {
+.main__catalog4 div div img:hover {
   width: 45%;
-  padding: 16px;
-  margin: 8px;
+  margin: 12px;
   transform: scale(1.1);
 }
 
@@ -667,7 +672,7 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   text-align: center;
-  padding: 16px;
+  margin: auto;
 }
 
 .main__banner img {
@@ -690,7 +695,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   text-align: left;
-  padding: 16px;
+  margin: auto;
 }
 
 .content__img img {

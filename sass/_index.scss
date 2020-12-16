@@ -2,16 +2,21 @@
 /**Estilos Header**/
 
 .main__catalog4 {
-    img {
-    width: 45%;
-    padding: 16px;
-    margin: 8px;
-    transition: transform 0.3s ease-out;
-    &:hover {
-    width: 45%;
-    padding: 16px;
-    margin: 8px;
-    transform: scale(1.1);}
+    div{
+        display: flex;
+        justify-content: center;
+        div {
+            margin:auto;
+            img {
+            width: 45%;
+            margin:12px;
+            transition: transform 0.3s ease-out;
+            &:hover {
+            width: 45%;
+            margin:12px;
+            transform: scale(1.1);}
+            }
+        }
     }
 }
 
