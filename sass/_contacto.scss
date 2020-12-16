@@ -1,0 +1,116 @@
+/**Estilos del Formulario de Contacto**/
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.der__formulario {
+    background-color: $colormain1;
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 64px 0;
+    
+    h4 {
+    color:#ffffff;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px;
+    }
+
+    label {
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+.formulario__datos {
+    input {
+    width: 200px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    border: none;
+    }
+
+    label{
+    display: block;
+    padding: 8px;}
+}
+
+.formulario__consulta {
+       
+    label {
+    display: inline;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding: 8px;
+    font-size: 12px;
+    }
+
+    textarea {
+    width: 100%;
+    display: block;
+    padding: 16px;
+    margin: 32px 0;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    border: none;}
+
+    
+}
+
+.consulta__button {
+    display: block;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    border: none;
+    &:active {
+        display: block;
+        padding: 16px;
+        margin: 16px;
+        border-radius: 8px;
+        color:#ffffff;
+        font-style: normal;
+        font-size: larger;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        background-color: $colormain2;
+        border: none;}
+}
+
+.map-google {
+    margin: 64px 0;
+    width: 80%;
+}
+

@@ -1,0 +1,22 @@
+$colormain1:#000066;
+$colormain2:#1977F3;
+$colorsec1: #000620;
+$colorsec2:#ffd900;
+$colorfondo: #f5f5f5;
+$grid-column: 5% 1fr 5%;
+$grid-row-index:160px 2600px 101px;
+$grid-row-med:160px 1200px 101px;
+$grid-row:160px 1500px 101px;
+$gap: 16px;
+$grid__bp-sm: 576;
+$grid__bp-md: 768;
+$grid__bp-lg: 992;
+$grid__bp-xl: 1200;
+$map-grid-props: (
+        '': 0,
+        '-sm': $grid__bp-sm,
+        '-md': $grid__bp-md,
+        '-lg': $grid__bp-lg,
+        '-xl': $grid__bp-xl
+);
+

@@ -1,0 +1,14 @@
+.main__catalog6 {
+    
+
+    img {
+        width: 70%;
+        margin: 64px;
+        transition: transform 0.3s ease-out;
+
+        &:hover {
+            margin: 64px;
+            transform: scale(1.2)
+        }
+    }
+}

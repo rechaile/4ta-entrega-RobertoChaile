@@ -1,0 +1,44 @@
+
+/**Estilos Header**/
+
+.main__catalog4 {
+    img {
+    width: 45%;
+    padding: 16px;
+    margin: 8px;
+    transition: transform 0.3s ease-out;
+    &:hover {
+    width: 45%;
+    padding: 16px;
+    margin: 8px;
+    transform: scale(1.1);}
+    }
+}
+
+.catalog4__titulos {
+    @include subtitulos ($colormain2, 32px, center)
+}
+
+.main__banner img {
+    display: block;
+    width: 70%;
+    margin: 32px auto;
+}
+
+.main__bienvenida {
+    margin:32px;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+
+h2{
+    @include subtitulos ($colormain1, 24px, left);
+}
+
+.content__img img{
+    width: 100%;
+    margin:32px 0;
+}
