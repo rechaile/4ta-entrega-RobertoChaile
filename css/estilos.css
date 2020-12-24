@@ -642,6 +642,87 @@ p {
     background-position: 0% 50%;
   }
 }
+/** Modales**/
+.modal__bg {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+
+.modal {
+  display: block;
+  background: #f5f5f5;
+  padding: 16px;
+  width: 50%;
+  min-width: 320px;
+  border-radius: 16px;
+}
+.modal .exit {
+  display: block;
+  width: 32px;
+  margin: 0 16px 0;
+  background: #1977F3;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+.modal .exit:hover {
+  background: #0026ff;
+  transform: scale(1.2);
+  filter: invert(100%);
+}
+.modal iframe {
+  width: 100%;
+  height: 60vh;
+  padding: 16px;
+}
+@media screen and (max-width: 768px) {
+  .modal iframe {
+    width: 320px;
+    height: 180px;
+    padding: 16px;
+  }
+}
+
+#modal__lacaja:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal__sancor:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal__mapfre:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal__experta:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal__prevencion:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal__caruso:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
