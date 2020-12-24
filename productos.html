@@ -56,47 +56,79 @@
         </header>
 
         <main>
-            <div class="main">
-                <div> 
-                    <h1>PRODUCTOS</h1> 
-                </div>
-
-                <div>
-                    <p>Tenemos la más amplia gama de productos de acuerdo a tus necesidades. Siempre procurando darte la asesoría y asistencia de la más alta calidad para que puedas tomar la decisión más acorde a tus posibilidades y a lo que necesitas. No dudes en consultar por nuestros productos con nuestros asesores profesionales.</p> 
-                </div>
-
-                <section class="container container--fluid">
-                    <div class="container__row main__catalog6">
-                        <div class="container__col-12 container__col-md-6 container__col-lg-4">
-                            <img src="Multimedia/Auto_producto.jpg" alt="persona manejando" >
-                        </div>
-                        
-                        <div class="container__col-12 container__col-md-6 container__col-lg-4">
-                            <img src="Multimedia/Motos_producto.jpg" alt="persona en motocicleta" > 
-                        </div>
-                        
-                        <div class="container__col-12 container__col-md-6 container__col-lg-4">
-                            <img src="Multimedia/Bicicletas_producto.jpg" alt="mujeres en bicicleta"> 
-                        </div>
-                        
-                        <div class="container__col-12 container__col-md-6 container__col-lg-4">
-                            <img src="Multimedia/ART_producto.jpg" alt="persona trabajando con sierra">
-                        </div>
-
-                        <div class="container__col-12 container__col-md-6 container__col-lg-4">
-                            <img src="Multimedia/Vida_producto.jpg" alt="mujer mayor sonriendo">
-                        </div>
-                       
-                        <div class="container__col-12 container__col-md-6 container__col-lg-4">
-                            <img src="Multimedia/Accidentes_producto.jpg" alt="muletas"> 
-                        </div>
-                                                  
+            <div class="main container">
+                <div class="container__row">
+                    <div class="container__col-12"> 
+                        <h1>PRODUCTOS</h1> 
                     </div>
-                </section>
 
-                <section class="main__banner">
-                    <img src="Multimedia/Banner_productos.jpg" alt="padres con su hijo en el campo">
-                </section>
+                    <div class="container__col-12">
+                        <p>Tenemos la más <strong>amplia gama de productos</strong> de acuerdo a tus <strong>necesidades</strong>. Siempre procurando darte <strong>asesoría y asistencia</strong> de la más alta calidad para que tomés la decisión más acorde a tus posibilidades y a lo que necesitás. Consultá por nuestros <strong>productos a través de nuestros asesores profesionales.</p>  
+                        <p>Tenemos la más <strong>amplia gama de productos</strong> de acuerdo a tus <strong>necesidades</strong>. Siempre procurando darte <strong>asesoría y asistencia</strong> de la más alta calidad para que tomés la decisión más acorde a tus posibilidades y a lo que necesitás. Consultá por nuestros <strong>productos</strong> a través de nuestros <strong>asesores profesionales</strong>.</p>  
+                    </div>
+
+                    <section class="container container--fluid">
+                        <div class="container__row main__catalog6">
+                            <div class="container__col-12 container__col-md-6 container__col-lg-4">
+                                <img src="Multimedia/Auto_producto.jpg" alt="persona manejando" >
+                            </div>
+                            
+                            <div class="container__col-12 container__col-md-6 container__col-lg-4">
+                                <img src="Multimedia/Motos_producto.jpg" alt="persona en motocicleta" > 
+                            </div>
+                            
+                            <div class="container__col-12 container__col-md-6 container__col-lg-4">
+                                <img src="Multimedia/Bicicletas_producto.jpg" alt="mujeres en bicicleta"> 
+                            </div>
+                            
+                            <div class="container__col-12 container__col-md-6 container__col-lg-4">
+                                <img src="Multimedia/ART_producto.jpg" alt="persona trabajando con sierra">
+                            </div>
+
+                            <div class="container__col-12 container__col-md-6 container__col-lg-4">
+                                <img src="Multimedia/Vida_producto.jpg" alt="mujer mayor sonriendo">
+                            </div>
+                        
+                            <div class="container__col-12 container__col-md-6 container__col-lg-4">
+                                <img src="Multimedia/Accidentes_producto.jpg" alt="muletas"> 
+                            </div>
+                        </div>
+                    </section>
+                    
+                   
+                    <!-- Contenedeor de Carousel -->
+                    <div class="slideshow-container">
+
+                        <!-- Elementos de carousel -->
+                        <div class="mySlides fade">
+                            <img src="Multimedia/Banner_home.jpg" alt="pareja en auto">
+                        </div>
+                    
+                        <div class="mySlides fade">
+                        <img src="Multimedia/Banner_productos.jpg" alt="familia en el campo">
+                        </div>
+                    
+                        <div class="mySlides fade">
+                            <img src="Multimedia/Banner_compañias.jpg" alt="trabajador ensamblando ventana">
+                        </div>
+                    
+                        <!-- Botones adelante y atras -->
+                        <a class="prev" onclick="plusSlides(-1)">
+                            <i class="fa fa-chevron-left"></i>
+                        </a>
+                        <a class="next" onclick="plusSlides(1)">
+                            <i class="fa fa-chevron-right"></i>
+                        </a>
+
+                        <!-- Indicadores -->
+                        <div class="carousel__controls">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                    
+                </div>                           
             </div>
         </main>
         
@@ -105,7 +137,7 @@
                 <div class="container__row">
                     <div class="pie__izq container__col-md-4 container__col-12">
                         <i class="fa fa-envelope"></i>
-                        <p>Email: ramirochaile@gmail.com</p>
+                        <p>E-mail: ramirochaile@gmail.com</p>
                     </div>
                     <div class="pie__izq container__col-md-4 container__col-12">
                         <a href="https://wa.link/25ui5s">
@@ -135,5 +167,8 @@
         <script>
         new WOW().init();
         </script>
+
+        <!--Carousel-->
+        <script src="js/carousel.js"></script>
     </body>
 </html>
