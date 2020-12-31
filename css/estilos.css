@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
 * {
   margin: 0;
@@ -723,26 +724,27 @@ p {
   align-items: center;
 }
 
-/* Slideshow container */
+/* Contenedor carousel */
 .slideshow-container {
   max-width: 1000px;
+  min-width: 320px;
   width: 70%;
   position: relative;
   margin: auto;
 }
-.slideshow-container img {
-  width: 100%;
-}
 
 .mySlides {
   display: none;
+}
+.mySlides img {
+  width: 100%;
 }
 
 /* Botones de adelante y atras */
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 45%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -784,7 +786,7 @@ p {
   padding: 8px;
 }
 
-/* Fading animation */
+/* Animación de Fade */
 .fade {
   animation-name: fade;
   animation-duration: 0.5s;
